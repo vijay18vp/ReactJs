@@ -41,3 +41,4 @@ export default Greet;
 // 	•	Be consistent with your export style across the project
 // 	•	Use descriptive names for exports
 // and atlast The whole File can be example of Multiple Exports 
+// You can Export anything Like const variables or and all 
