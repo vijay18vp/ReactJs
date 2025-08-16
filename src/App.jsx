@@ -1,11 +1,14 @@
-function App(){
+import { Button , Input } from "./Components/Import";
+import Greet from "./Components/Import";
+
+function App (){
   return (
     <div>
-      <h1>
-        Hello This is my First ReactCode !😃
-      </h1>
+      <Button/>
+      <Input/>
+      <Greet/>
     </div>
   )
 }
 
-export default App ;
+export default App;
