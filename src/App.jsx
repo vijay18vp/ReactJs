@@ -1,3 +1,4 @@
+import Counter from "./Components/ClickEvents&FunctionCall/counterEvent";
 import { Button , Input } from "./Components/Import";
 import Greet from "./Components/Import";
 import Welcome , {MyComponent ,FruitList } from "./Components/ReactJSX";
@@ -11,6 +12,7 @@ function App (){
       <Welcome/>
       <MyComponent/>
       <FruitList/>
+      <Counter/>
       
     </div>
   )
