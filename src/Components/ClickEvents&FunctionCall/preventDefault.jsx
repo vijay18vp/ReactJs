@@ -1,6 +1,7 @@
 // prevent default browser behaviouur 
 
 function LinkComponent() {
+     
     const handleClick = (e) => {
         e.preventDefault();
         alert("link clicked , but Not navigated ! "); 
@@ -12,3 +13,5 @@ function LinkComponent() {
     );
 };
 export default LinkComponent;
+
+

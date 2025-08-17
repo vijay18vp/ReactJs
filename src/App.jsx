@@ -1,4 +1,5 @@
 import Counter from "./Components/ClickEvents&FunctionCall/counterEvent";
+import ItemList from "./Components/ClickEvents&FunctionCall/data";
 import LinkComponent from "./Components/ClickEvents&FunctionCall/preventDefault";
 import { Button , Input } from "./Components/Import";
 import Greet from "./Components/Import";
@@ -15,6 +16,7 @@ function App (){
       <FruitList/>
       <Counter/>
       <LinkComponent/>
+      <ItemList/>
       
     </div>
   )
