@@ -1,7 +1,5 @@
 // changing component state on click 
-
 import React , { useState } from "react";
-
 function Counter() {
     const [count , setCount] = useState(0);
 
@@ -13,5 +11,4 @@ function Counter() {
         </div>
     );
 };
-
 export default Counter ; 
